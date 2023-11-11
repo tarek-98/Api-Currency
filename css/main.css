@@ -1,0 +1,41 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.price
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #ddd;
+  padding: 100px;
+}
+.price .amount
+{
+  padding: 10px;
+  width: 250px;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  margin-bottom: 20px;
+  border: 1px solid orangered;
+}
+.price .amount:focus
+{
+  border: 1px solid orangered;
+  outline: none;
+}
+.price .egp,
+.price .sar
+{
+  font-size: 22px;
+}
+.price .egp span,
+.price .sar span
+{
+  margin-left: 20px;
+  font-size: 22px;
+  color: orangered;
+}
